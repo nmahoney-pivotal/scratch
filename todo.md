@@ -1,11 +1,23 @@
+- what do I want to focus on as anchor?
+- create/maintain a map of priorities for our team / for our problem space
+  - who is focused on each of these?
+- create a matrix of bbl support
+  - should we maintain and/or advertise this?
 - talk to Evan about the terraforming repos
   - what are our contracts?
   - testing?
+- lite + jumpbox seems silly
+- pm
+  - subbing for Evan
+  - how else could I help CF without permanently transitioning roles
+  - could I have some sort of hybrid role?
+    - what does Dmitry's job look like?
+
+
+
+- create vim shortcut to close test split (from `,t`)
 - should the envs just match the job name?
   - I think I was thinking about the "downstream" envs
-- create vim shortcut to close test split (from `,t`)
-- create a matrix of bbl support
-  - should we maintain and/or advertise this?
 - investigate our testing
   - terraforming-\*
   - upgrades
@@ -18,15 +30,10 @@
 - look into / ask about the `bbl-docs-test` pipeline
   - it red af
 - is there anything blocking us from getting off wings?
-- come up with a little Istio/Envoy talk
-  - start just for team
-  - is it worth sharing with cf at large? maybe after polishing with Gabe?
-- pair w/ Rowan on vSphere stuff
 - provide options to `install.sh` in `infrastructure-workspace`
   - e.g. terminal colors (gimme that solarized light!)
 - clean up `infrastructure-workspace`
   - `rm bash_profile`?
-- lite + jumpbox seems silly
 - we should align how we record temporal documentation
   - git? tracker? other?
   - what sorts of things should we put in each?
@@ -36,12 +43,19 @@
 - prompt wish list
   - last exit status
   - start and stop time of last command
+
+
+
+
+
+- come up with a little Istio/Envoy talk
+  - start just for team
+  - is it worth sharing with cf at large? maybe after polishing with Gabe?
+- pair w/ Rowan on vSphere stuff
+
+
+
+
+
 - wireshark
-- what do I want to focus on as anchor?
-- create/maintain a map of priorities for our team / for our problem space
-  - who is focused on each of these?
-- pm
-  - subbing for Evan
-  - how else could I help CF without permanently transitioning roles
-  - could I have some sort of hybrid role?
-    - what does Dmitry's job look like?
+- docker
