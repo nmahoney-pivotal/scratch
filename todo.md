@@ -1,3 +1,8 @@
+- review PWG docs and any other related PM docs
+
+
+
+
 - what do I want to focus on as anchor?
 - create/maintain a map of priorities for our team / for our problem space
   - who is focused on each of these?
@@ -6,6 +11,7 @@
 - talk to Evan about the terraforming repos
   - what are our contracts?
   - testing?
+- talk to Evan about our responsibility for consul and etcd, and any related timelines
 - lite + jumpbox seems silly
 - pm
   - subbing for Evan
@@ -15,6 +21,9 @@
 
 
 
+- look into bbl state repo
+  - targeting by downloading and untarring is annoying
+  - is a big download
 - create vim shortcut to close test split (from `,t`)
 - should the envs just match the job name?
   - I think I was thinking about the "downstream" envs
@@ -43,6 +52,12 @@
 - prompt wish list
   - last exit status
   - start and stop time of last command
+- autobump bosh cli in CI
+  - was I talking about the docker images when I wrote this?
+- compile a list of things that easily remove "secure by default"
+  - for spiking
+  - "easy but insecure bbl"?
+- could we align on underscore vs hyphen strategy in a satisfying way?
 
 
 
