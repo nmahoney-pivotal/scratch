@@ -1,4 +1,11 @@
 - review PWG docs and any other related PM docs
+- slack photo?
+- bbl cidrs
+  - https://pivotal.slack.com/archives/C3LQ5CS2X/p1528858007000028
+- what's the current state of ci??
+- activate credit card
+- order amex
+- move all this into trello
 
 
 
