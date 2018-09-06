@@ -1,0 +1,7 @@
+- currently, patches released after a draft is created will have the bumped minor version, but will not contain all of the commits for that next minor version (the draft)
+- if we fix that, patch releases between a draft being cut and that draft being promoted will still contain dependencies (e.g. bosh-deployment) that the next minor (the promoted draft) does not contain
+- we could make the publish draft job no longer bump the minor version that the bump-deployments use. then we could add a job to promote that draft, and this job would bump the minor version for future patch releases.
+  - this still has the problem of the `x.x.0` release not having the most up-to-date dependencies.
+  - we could maybe bump deployments and run all the tests (looooong) in the promote job (we would also need to duplicate the bump-deployments pipeline)
+  - we could alternatively block patch releases while there is an unpromoted draft
+  - bump-deployments could become more of a release pipeline... where basically we don't promote the draft, but instead put the new commits through the bump-deployments pipeline
